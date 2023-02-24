@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynacoop2023.AlfaPeople", "Dynacoop2023.AlfaPeople\Dynacoop2023.AlfaPeople.csproj", "{F92D2A9E-8BE5-4080-BF58-E0C6E5FB8908}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynacoop2023.AlfaPeople.Plugin", "Dynacoop2023.AlfaPeople.Plugin\Dynacoop2023.AlfaPeople.Plugin.csproj", "{C0D3FA1D-9532-4AE5-BD83-E2B808274B9C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Dynacoop2023.AlfaPeople.SharedProject", "Dynacoop2023.AlfaPeople.SharedProject\Dynacoop2023.AlfaPeople.SharedProject.shproj", "{B11C3ADD-8DD0-4DF8-860E-AEC16BD04618}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,19 @@ Global
 		{F92D2A9E-8BE5-4080-BF58-E0C6E5FB8908}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F92D2A9E-8BE5-4080-BF58-E0C6E5FB8908}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F92D2A9E-8BE5-4080-BF58-E0C6E5FB8908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D3FA1D-9532-4AE5-BD83-E2B808274B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D3FA1D-9532-4AE5-BD83-E2B808274B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D3FA1D-9532-4AE5-BD83-E2B808274B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D3FA1D-9532-4AE5-BD83-E2B808274B9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8FD221D3-54DE-44F1-9E81-6A4BE414C00D}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Dynacoop2023.AlfaPeople.SharedProject\Dynacoop2023.AlfaPeople.SharedProject.projitems*{b11c3add-8dd0-4df8-860e-aec16bd04618}*SharedItemsImports = 13
+		Dynacoop2023.AlfaPeople.SharedProject\Dynacoop2023.AlfaPeople.SharedProject.projitems*{c0d3fa1d-9532-4ae5-bd83-e2b808274b9c}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal

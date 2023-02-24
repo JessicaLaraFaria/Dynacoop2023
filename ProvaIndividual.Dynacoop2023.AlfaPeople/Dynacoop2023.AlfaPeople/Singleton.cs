@@ -11,9 +11,9 @@ namespace Dynacoop2023.AlfaPeople
     {
         public static CrmServiceClient GetService()
         {
-            string url = "";
-            string clientId = "";
-            string clientSecret = "";
+            string url = "org9f220468.crm2.dynamics.com/";
+            string clientId = "d0793697-2bcf-4540-ae71-193c41fc822c";
+            string clientSecret = "5a88Q~i36xKjc7-v.FdZ4Eh-3JqQgs~rKlJ9Vdvj";
 
             CrmServiceClient serviceCliente = new CrmServiceClient($"AuthType=ClientSecret;" +
                 $"                                                                  Url=https://{url};" +
